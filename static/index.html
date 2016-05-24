@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="/js/jquery-1.12.3.min.js"></script>
-        <script type="text/javascript" src="/js/app.js"></script>
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
-        <title></title>
-    </head>
-    <body>
-        <div id="pagina">
-            <div class="sezione">
-                <h2>Aggiungi Studente</h2>
-                <table>
-                    <tr>
-                        <td><label for="matricola">Matricola</label></td>
-                        <td><input type="text" id="matricola" name="matricola"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="nome">Nome</label></td>
-                        <td><input type="text" id="nome" name="nome"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="cognome">Cognome</label></td>
-                        <td><input type="text" id="cognome" name="cognome"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="anno">Anno</label></td>
-                        <td><input type="text" id="anno" name="anno"></td>
-                    </tr>					
-                </table>
-                <button id="bottone">Invia</button>
-                <p id="risultato"></p>
-            </div>
-                <div class="seziione">
-                    <h2>Ottieni Studente</h2>
-                    <table>
-                        <tr>
-                            <td><label for="matricola2">Matricola</td>
-                            <td><input type="text" id="matricola2" name="matricola2"></td>
-                            <td><button id="bottone2">Invia</button></td>
-                        </tr>
-                        <tr>
-                            <td><label>Nome</label></td>
-                            <td><p id="stampaNome"></p></td>
-                        </tr>
-                        <tr>
-                            <td><label>Cognome</label></td>
-                            <td><p id="stampaCognome"></p></td>
-                        </tr>
-                        <tr>
-                            <td><label>Anno</label></td>
-                            <td><p id="stampaAnno"></p></td>
-                        </tr>
-                    </table>
-                    <p id="risultato2"></p>
-                </div>
-        </div>
-    </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="/js/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="/js/app.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<title></title>
+	</head>
+	<body>
+		<div id="pagina">
+		<h1 id="titolo1"> Registro Scolastico</h1>
+			<div class="sezione">
+				<h2 id="titolo2">Aggiungi Studente</h2>
+				<table>
+					<tr>
+						<td><label for="matricola">Matricola &nbsp;&nbsp;&nbsp;</label></td>
+						<td><input type="text" id="matricola" name="matricola"></td>
+						<td><button id="bottone">Invia</button></td>
+					</tr>
+					<tr>
+						<td><label for="nome">Nome</label></td>
+						<td><input type="text" id="nome" name="nome"></td>
+					</tr>
+					<tr>
+						<td><label for="cognome">Cognome</label></td>
+						<td><input type="text" id="cognome" name="cognome"></td>
+					</tr>
+					<tr>
+						<td><label for="anno">Anno</label></td>
+						<td><input type="text" id="anno" name="anno"></td>
+					</tr>					
+				</table>
+				
+				<p id="risultato"><br></p>
+			</div>
+			<div class="seziione">
+				<h2 id="titolo2">Ottieni Studente</h2>
+				<table>
+					<tr>
+						<td><label for="matricola2">Matricola &nbsp;&nbsp;&nbsp;</td>
+						<td><input type="text" id="matricola2" name="matricola2"></td>
+						<td><button id="bottone2">Invia</button></td>
+					</tr>
+					<tr>
+						<td><label>Nome</label></td>
+						<td id="stampaNome"></td>
+					</tr>
+					<tr>
+						<td><label>Cognome</label></td>
+						<td id="stampaCognome"></td>
+					</tr>
+					<tr>
+						<td><label>Anno</label></td>
+						<td id="stampaAnno"></td>
+					</tr>
+				</table>
+				<p id="risultato2"><br></p>
+			</div>
+	</body>
 </html>
